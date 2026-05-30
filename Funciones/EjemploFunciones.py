@@ -27,3 +27,14 @@ num1 = int(input("Numero 1: "))
 num2 = int(input("Numero 2: "))
 res = sumar(num1,num2)
 print("La suma es: ", res)
+
+def resta(a,b):
+    '''Esta funcion permite restar dos números
+    ingresados por parametros'''
+    resta = a - b
+    return resta
+
+num1 = int(input("Numero 1: "))
+num2 = int(input("Numero 2: "))
+res = resta(num1,num2)
+print("La resta es :",res)
